@@ -11,43 +11,43 @@ import {
 
 export const features = [
   {
-    name: 'Unlimited Inboxes',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    name: 'Certificado de Registro',
+    description: 'Concessão e renovação do Certificado de Registro no Exército Brasileiro (CR)',
     icon: InboxIcon,
   },
   {
-    name: 'Manage Team Members',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    name: 'Registro e renovação',
+    description: 'Registro e renovação de Certificado de Registro de Arma de Fogo (CRAF)',
     icon: UsersIcon,
   },
   {
-    name: 'Spam Report',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    name: 'Transferências',
+    description: 'Transferências de CAC para CAC, MILITARES para CAC, SIGMA-SINARM',
     icon: TrashIcon,
   },
   {
-    name: 'Compose in Markdown',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    name: 'Emissão de Guias',
+    description: 'Emissão de Guias de Trafego (GT)',
     icon: PencilAltIcon,
   },
   {
-    name: 'Team Reporting',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    name: 'Apostilamentos',
+    description: 'Apostilamentos ao Certificado de Registro (CR) e atualização ou inclusão de dados',
     icon: DocumentReportIcon,
   },
   {
-    name: 'Saved Replies',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    name: 'Posse de Arma',
+    description: 'Posse de Arma de Fogo',
     icon: ReplyIcon,
   },
   {
-    name: 'Email Commenting',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    name: 'Renovação',
+    description: 'Renovação de registro',
     icon: ChatAltIcon,
   },
   {
-    name: 'Connect with Customers',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    name: 'Transferências',
+    description: 'Transferências',
     icon: HeartIcon,
   },
 ]

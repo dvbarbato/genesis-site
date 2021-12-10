@@ -88,9 +88,11 @@ const Main = () => (
           Nossa Historia
         </a>
       </Link>
-      <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
-        Partners
-      </a>
+      <Link href="nossos-servicos" passHref>
+        <a className="text-base font-medium text-gray-500 hover:text-gray-900">
+          Nossos Servicos
+        </a>
+      </Link>
       <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
         Company
       </a>
