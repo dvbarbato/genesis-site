@@ -1,6 +1,8 @@
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 import '../styles/styles.css'
+import Header from 'components/Header'
+import Footer from 'components/Footer'
 
 function App({ Component, pageProps }: AppProps) {
   return (
@@ -16,7 +18,9 @@ function App({ Component, pageProps }: AppProps) {
           content="Genesis Assessoria - Ajudamos voce a tirar seu certificado"
         />
       </Head>
+      <Header />
       <Component {...pageProps} />
+      <Footer />
     </>
   )
 }
