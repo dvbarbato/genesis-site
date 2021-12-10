@@ -1,4 +1,4 @@
-import { MailIcon, PhoneIcon  } from '@heroicons/react/outline'
+import { PhoneIcon, LocationMarkerIcon } from '@heroicons/react/outline'
 
 export default function Example() {
   return (
@@ -18,43 +18,49 @@ export default function Example() {
                   <PhoneIcon className="h-6 w-6 text-gray-400" aria-hidden="true" />
                 </div>
                 <div className="ml-3 text-base text-gray-500">
-                  <p>+1 (555) 123 4567</p>
-                  <p className="mt-1">Mon-Fri 8am to 6pm PST</p>
+                  <p>
+                    (11) 93215-5396
+                  </p>
                 </div>
               </div>
               <div className="mt-6 flex">
                 <div className="flex-shrink-0">
-                  <MailIcon className="h-6 w-6 text-gray-400" aria-hidden="true" />
+                  <PhoneIcon className="h-6 w-6 text-gray-400" aria-hidden="true" />
                 </div>
                 <div className="ml-3 text-base text-gray-500">
-                  <p>support@example.com</p>
+                  <p>
+                    (11) 9346-78355
+                  </p>
                 </div>
               </div>
             </div>
           </div>
           <div className="mt-12 sm:mt-16 md:mt-0">
-            <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">Localizcao</h2>
+            <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">Localizacao</h2>
             <div className="mt-3">
               <p className="text-lg text-gray-500">
-                Voce pode nos encontrar no endereco:
+                Voce pode nos encontrar nos enderecos:
               </p>
             </div>
             <div className="mt-9">
               <div className="flex">
                 <div className="flex-shrink-0">
-                  <PhoneIcon className="h-6 w-6 text-gray-400" aria-hidden="true" />
+                  <LocationMarkerIcon className="h-6 w-6 text-gray-400" aria-hidden="true" />
                 </div>
                 <div className="ml-3 text-base text-gray-500">
-                  <p>+1 (555) 123 4567</p>
-                  <p className="mt-1">Mon-Fri 8am to 6pm PST</p>
+                  <p>
+                    Central - Rua Senador Fonseca nº 1093, sala 21 - Centro - Jundiaí-SP, CEP: 13201-017
+                  </p>
                 </div>
               </div>
               <div className="mt-6 flex">
                 <div className="flex-shrink-0">
-                  <MailIcon className="h-6 w-6 text-gray-400" aria-hidden="true" />
+                  <LocationMarkerIcon className="h-6 w-6 text-gray-400" aria-hidden="true" />
                 </div>
                 <div className="ml-3 text-base text-gray-500">
-                  <p>support@example.com</p>
+                  <p>
+                    Posto de atendimento - Falcon Armas Tatuapé - Rua Cantagalo nº 787 - Tatuapé - São Paulo-SP, CEP: 03319-000
+                  </p>
                 </div>
               </div>
             </div>
