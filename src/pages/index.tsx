@@ -1,6 +1,7 @@
 import { InboxIcon, SparklesIcon } from '@heroicons/react/outline'
 import NossaHistoria from 'components/NossaHistoria'
 import NossosServicos from 'components/NossosServicos'
+import NossaMissao from 'components/NossaMissao'
 
 export default function Example() {
   return (
@@ -197,9 +198,10 @@ export default function Example() {
         </div>
 
         <NossosServicos />
-
         {/* Stats section */}
         <NossaHistoria />
+
+        <NossaMissao />
 
         {/* CTA Section */}
         <div className="bg-white">
