@@ -13,10 +13,10 @@ const Main = () => (
         <div className="flex justify-start lg:w-0 lg:flex-1">
           <Link href="/" passHref>
             <a>
-              <span className="sr-only">Workflow</span>
+              <span className="sr-only">Genesis</span>
               <img
                 className="h-8 w-auto sm:h-10"
-                src="https://tailwindui.com/img/logos/workflow-mark-purple-600-to-indigo-600.svg"
+                src="/img/genesis-assessoria.png"
                 alt=""
               />
             </a>
@@ -32,6 +32,7 @@ const Main = () => (
           <Popover className="relative">
             {({ open }) => (
               <>
+                {/*
                 <Popover.Button
                   className={classNames(
                     open ? 'text-gray-900' : 'text-gray-500',
@@ -47,6 +48,7 @@ const Main = () => (
                     aria-hidden="true"
                   />
                 </Popover.Button>
+                  */}
 
                 <Transition
                   as={Fragment}
@@ -146,7 +148,7 @@ const Main = () => (
                 <div>
                   <img
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-purple-600-to-indigo-600.svg"
+                    src="/img/genesis-assessoria.png"
                     alt="Workflow"
                   />
                 </div>

@@ -126,7 +126,7 @@ const Main = () => (
           ))}
         </div>
         <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-          &copy; 2020 Workflow, Inc. All rights reserved.
+          &copy; 2021 Genesis Assessoria, Inc. All rights reserved.
         </p>
       </div>
     </div>
