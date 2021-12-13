@@ -10,11 +10,16 @@ const Main = () => (
         <div className="grid grid-cols-2 gap-8 xl:col-span-2">
           <div className="md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Solutions</h3>
+              <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                Solutions
+              </h3>
               <ul role="list" className="mt-4 space-y-4">
                 {footerNavigation.solutions.map((item) => (
                   <li key={item.name}>
-                    <a href={item.href} className="text-base text-gray-500 hover:text-gray-900">
+                    <a
+                      href={item.href}
+                      className="text-base text-gray-500 hover:text-gray-900"
+                    >
                       {item.name}
                     </a>
                   </li>
@@ -22,11 +27,16 @@ const Main = () => (
               </ul>
             </div>
             <div className="mt-12 md:mt-0">
-              <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Support</h3>
+              <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                Support
+              </h3>
               <ul role="list" className="mt-4 space-y-4">
                 {footerNavigation.support.map((item) => (
                   <li key={item.name}>
-                    <a href={item.href} className="text-base text-gray-500 hover:text-gray-900">
+                    <a
+                      href={item.href}
+                      className="text-base text-gray-500 hover:text-gray-900"
+                    >
                       {item.name}
                     </a>
                   </li>
@@ -36,11 +46,16 @@ const Main = () => (
           </div>
           <div className="md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Company</h3>
+              <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                Company
+              </h3>
               <ul role="list" className="mt-4 space-y-4">
                 {footerNavigation.company.map((item) => (
                   <li key={item.name}>
-                    <a href={item.href} className="text-base text-gray-500 hover:text-gray-900">
+                    <a
+                      href={item.href}
+                      className="text-base text-gray-500 hover:text-gray-900"
+                    >
                       {item.name}
                     </a>
                   </li>
@@ -48,11 +63,16 @@ const Main = () => (
               </ul>
             </div>
             <div className="mt-12 md:mt-0">
-              <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Legal</h3>
+              <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                Legal
+              </h3>
               <ul role="list" className="mt-4 space-y-4">
                 {footerNavigation.legal.map((item) => (
                   <li key={item.name}>
-                    <a href={item.href} className="text-base text-gray-500 hover:text-gray-900">
+                    <a
+                      href={item.href}
+                      className="text-base text-gray-500 hover:text-gray-900"
+                    >
                       {item.name}
                     </a>
                   </li>
@@ -95,7 +115,11 @@ const Main = () => (
       <div className="mt-12 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between lg:mt-16">
         <div className="flex space-x-6 md:order-2">
           {footerNavigation.social.map((item) => (
-            <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
+            <a
+              key={item.name}
+              href={item.href}
+              className="text-gray-400 hover:text-gray-500"
+            >
               <span className="sr-only">{item.name}</span>
               <item.icon className="h-6 w-6" aria-hidden="true" />
             </a>
