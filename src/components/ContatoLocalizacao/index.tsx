@@ -1,4 +1,6 @@
-import { PhoneIcon, LocationMarkerIcon } from '@heroicons/react/outline'
+import { LocationMarkerIcon, MailIcon } from '@heroicons/react/outline'
+import { FaWhatsapp } from 'react-icons/fa'
+
 
 export default function Example() {
   return (
@@ -11,30 +13,30 @@ export default function Example() {
             </h2>
             <div className="mt-3">
               <p className="text-lg text-gray-500">
-                Entre em contato pelos numeros:
+                Entre em contato
               </p>
             </div>
             <div className="mt-9">
               <div className="flex">
                 <div className="flex-shrink-0">
-                  <PhoneIcon
-                    className="h-6 w-6 text-gray-400"
+                  <FaWhatsapp
+                    className="h-6 w-6 text-green-400"
                     aria-hidden="true"
                   />
                 </div>
                 <div className="ml-3 text-base text-gray-500">
-                  <p>(11) 93215-5396</p>
+                  <a href="https://web.whatsapp.com/send?phone=5511932155396" target="_blank">(11) 93215-5396</a>
                 </div>
               </div>
               <div className="mt-6 flex">
                 <div className="flex-shrink-0">
-                  <PhoneIcon
-                    className="h-6 w-6 text-gray-400"
+                  <MailIcon
+                    className="h-6 w-6 text-white-400"
                     aria-hidden="true"
                   />
                 </div>
                 <div className="ml-3 text-base text-gray-500">
-                  <p>(11) 9346-78355</p>
+                  <a href="mailto:contato@genesisassessoria.com">contato@genesisassessoria.com</a>
                 </div>
               </div>
             </div>
@@ -45,14 +47,14 @@ export default function Example() {
             </h2>
             <div className="mt-3">
               <p className="text-lg text-gray-500">
-                Voce pode nos encontrar nos enderecos:
+                Você pode nos encontrar nos endereços:
               </p>
             </div>
             <div className="mt-9">
               <div className="flex">
                 <div className="flex-shrink-0">
                   <LocationMarkerIcon
-                    className="h-6 w-6 text-gray-400"
+                    className="h-6 w-6 text-red-400"
                     aria-hidden="true"
                   />
                 </div>
@@ -66,7 +68,7 @@ export default function Example() {
               <div className="mt-6 flex">
                 <div className="flex-shrink-0">
                   <LocationMarkerIcon
-                    className="h-6 w-6 text-gray-400"
+                    className="h-6 w-6 text-red-400"
                     aria-hidden="true"
                   />
                 </div>
