@@ -1,4 +1,4 @@
-import { metrics } from 'fixtures/metrics'
+// import { metrics } from 'fixtures/metrics'
 
 const NossaHistoria = () => (
   <>

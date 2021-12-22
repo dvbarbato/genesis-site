@@ -1,7 +1,6 @@
 import { LocationMarkerIcon, MailIcon } from '@heroicons/react/outline'
 import { FaWhatsapp } from 'react-icons/fa'
 
-
 export default function Example() {
   return (
     <div className="bg-white">
@@ -12,9 +11,7 @@ export default function Example() {
               Contato
             </h2>
             <div className="mt-3">
-              <p className="text-lg text-gray-500">
-                Entre em contato
-              </p>
+              <p className="text-lg text-gray-500">Entre em contato</p>
             </div>
             <div className="mt-9">
               <div className="flex">
@@ -25,7 +22,13 @@ export default function Example() {
                   />
                 </div>
                 <div className="ml-3 text-base text-gray-500">
-                  <a href="https://web.whatsapp.com/send?phone=5511932155396" target="_blank">(11) 93215-5396</a>
+                  <a
+                    href="https://web.whatsapp.com/send?phone=5511932155396"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    (11) 93215-5396
+                  </a>
                 </div>
               </div>
               <div className="mt-6 flex">
@@ -36,7 +39,9 @@ export default function Example() {
                   />
                 </div>
                 <div className="ml-3 text-base text-gray-500">
-                  <a href="mailto:contato@genesisassessoria.com">contato@genesisassessoria.com</a>
+                  <a href="mailto:contato@genesisassessoria.com">
+                    contato@genesisassessoria.com
+                  </a>
                 </div>
               </div>
             </div>
